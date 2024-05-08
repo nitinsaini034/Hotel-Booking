@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* navbar */
+.navbar{
+  height: 5em;
+  /* border-bottom: 1px solid black; */
+  background: white
+}
+.navlink{
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  margin-left: 20em;
+}
+.active{
+  margin: 30px;
+}
+.logo{
+  margin-left: 90px;
+ 
+}
+.logo img{
+  height: 80px;
+  width: 180px;
+}
+.maintheme img{
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.mainheadingone{
+  position: absolute;
+  z-index: 1;
+  font-size: 60px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: white;
+  margin: 300px 140px;
+}
+.mainheadingtwo{
+  position: absolute;
+  z-index: 1;
+  font-size: 60px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: white;
+  margin: 350px 140px;
+}
+.mainpara{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  margin: 450px 140px;
+}
+.aboutus{
+  height: 160vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.cont_one_head{
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
+}
+.aboutimg1{
+  background-size: cover;
+  height: 110vh;
+  width: 50vw;
+}
+.aboutimg2{
+  width: 25vw;
+  height: 70vh;
+}
+.bookhotel{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  height: 70vh;
+  width: 100vw;
+}
+.bookcont{
+  color: white;
+  background: black;
+  height: 80vh;
+  width: 50vw;
+  margin: 10px;
+  display: flex;
+ align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.bookhotelimg img{
+  width: 40vw ;
+  margin: 10px;
+}
+.bookcont input,select,option{
+  height: 50px;
+  width: 520px;
+  border-radius: 20px;
+  font-size: 25px;
+  margin-top: 7px;
+}
